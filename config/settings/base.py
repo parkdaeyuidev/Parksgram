@@ -67,10 +67,12 @@ THIRD_PARTY_APPS = [
     'allauth.account',
     'allauth.socialaccount',
     'rest_framework', #REST framework
+    'taggit', #Tag for the photosp
 ]
 LOCAL_APPS = [
     'parksgram.users.apps.UsersAppConfig',
     'parksgram.images.apps.ImagesConfig',
+    'notifications.apps.NotificationsConfig' #notifications app
     # Your stuff: custom apps go here
 ]
 # https://docs.djangoproject.com/en/dev/ref/settings/#installed-apps
@@ -238,3 +240,4 @@ SOCIALACCOUNT_ADAPTER = 'parksgram.users.adapters.SocialAccountAdapter'
 
 # Your stuff...
 # ------------------------------------------------------------------------------
+TAGGIT_CASE_INSENSITIVE = True
