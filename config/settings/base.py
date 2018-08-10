@@ -72,7 +72,7 @@ THIRD_PARTY_APPS = [
 LOCAL_APPS = [
     'parksgram.users.apps.UsersAppConfig',
     'parksgram.images.apps.ImagesConfig',
-    'notifications.apps.NotificationsConfig' #notifications app
+    'parksgram.notifications.apps.NotificationsConfig' #notifications app
     # Your stuff: custom apps go here
 ]
 # https://docs.djangoproject.com/en/dev/ref/settings/#installed-apps
